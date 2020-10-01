@@ -113,3 +113,19 @@
       text-align: left;
     }
   }
+/* SMALL SCREENS */
+@media(max-width:650px){
+    .wrapper{
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+    }
+  
+    .wrapper > *{
+      padding:3em;
+    }
+  
+    .company-info h3, .company-info ul, .brand{
+      text-align: left;
+         font-weight: bold;
+    }
+  }
