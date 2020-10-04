@@ -12,7 +12,7 @@
   
   .container{
     max-width:1170px;
-    margin-left:auto;
+    margin-left:30px;
     margin-right:auto;
     padding:1em;
   }
@@ -43,12 +43,12 @@
   }
   
   .company-info h3, .company-info ul{
-    text-align: center;
+    text-align: left;
     margin:0 0 1rem 0;
   }
   
   .contact{
-    background:#f9feff;
+    background:#black;
   }
   
   /* FORM STYLES */
